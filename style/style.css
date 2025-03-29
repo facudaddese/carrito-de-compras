@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.card {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.button {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 5px
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
